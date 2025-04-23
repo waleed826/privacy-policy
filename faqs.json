@@ -1,42 +1,132 @@
-[
-  {
-    "id": "privacy1",
-    "question": "Does this app collect any personal data?",
-    "answer": "No, we do not collect, store, or share any personal information. The app works entirely offline except for fetching quotes from public APIs."
-  },
-  {
-    "id": "data1",
-    "question": "Where is my preference data stored?",
-    "answer": "All settings and preferences are stored locally on your device and are deleted when you uninstall the app."
-  },
-  {
-    "id": "content1",
-    "question": "How often are new quotes added?",
-    "answer": "Quotes update automatically every 24 hours from our API sources. You can manually refresh at any time."
-  },
-  {
-    "id": "sources1",
-    "question": "Where do the quotes come from?",
-    "answer": "Quotes are sourced from these public APIs: [FavQs](https://favqs.com), [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes), and other community-maintained repositories."
-  },
-  {
-    "id": "sharing1",
-    "question": "Is my sharing activity tracked?",
-    "answer": "No, we do not monitor or log any sharing activities. The app uses your device's native share functionality."
-  },
-  {
-    "id": "compliance1",
-    "question": "Is this app GDPR/COPPA compliant?",
-    "answer": "Yes, we fully comply with GDPR (EU) and COPPA (US) regulations. No user data is collected from any age group."
-  },
-  {
-    "id": "update1",
-    "question": "How are updates handled?",
-    "answer": "App updates are optional and only contain feature improvements. No changes to data practices without prior notification."
-  },
-  {
-    "id": "contact1",
-    "question": "How can I request quote removal?",
-    "answer": "Email requests to [information.seeker14@gmail.com](mailto:information.seeker14@gmail.com) with 'Quote Removal' in the subject line."
-  }
-]
+{
+  "title": "Quotes with Vibe - FAQ & Privacy",
+  "sections": [
+    {
+      "id": "privacy",
+      "title": "Data & Privacy",
+      "faqs": [
+        {
+          "id": "privacy1",
+          "question": "Does this app collect any personal data?",
+          "answer": "No, we do not collect, store, or share any personal information. The app works entirely offline except for fetching quotes from public APIs. It does not access your name, email, identity, location data, device identifiers, or usage history."
+        },
+        {
+          "id": "privacy2",
+          "question": "How are my data and privacy protected?",
+          "answer": "All preferences are stored only on your device. No servers, databases, third-party trackers, or analytics are used."
+        },
+        {
+          "id": "privacy3",
+          "question": "Why does the app connect to the internet?",
+          "answer": "To fetch fresh quotes from public APIs. These connections don’t require accounts and only transmit anonymous technical data like your IP address and timestamp, using secure HTTPS protocols."
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "title": "App Features",
+      "faqs": [
+        {
+          "id": "data1",
+          "question": "How does the 'Local Storage' feature work?",
+          "answer": "All settings and preferences such as theme and font choices are stored locally on your device. These are deleted when you uninstall the app."
+        },
+        {
+          "id": "sharing1",
+          "question": "Can I share quotes safely?",
+          "answer": "Yes! The 'Copy & Share' feature uses your device’s native sharing menu and doesn’t track what or who you share with."
+        },
+        {
+          "id": "translation1",
+          "question": "Is translation available in the app?",
+          "answer": "Translation uses your device’s built-in tools, like Google Translate on Android. The app never sees or stores translated text."
+        }
+      ]
+    },
+    {
+      "id": "content",
+      "title": "Content Sources",
+      "faqs": [
+        {
+          "id": "sources1",
+          "question": "Where do the quotes come from?",
+          "answer": "Quotes are sourced from public APIs such as [FavQs](https://favqs.com) and [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes), along with other community-maintained repositories."
+        },
+        {
+          "id": "content1",
+          "question": "How often are new quotes added?",
+          "answer": "Quotes auto-refresh every 24 hours from API sources, and you can manually refresh them at any time."
+        },
+        {
+          "id": "moderation1",
+          "question": "Are quotes fact-checked or moderated?",
+          "answer": "No, quotes reflect original API content and community submissions. We do not curate or modify them."
+        }
+      ]
+    },
+    {
+      "id": "compliance",
+      "title": "Compliance & Safety",
+      "faqs": [
+        {
+          "id": "compliance1",
+          "question": "Is this app GDPR/COPPA compliant?",
+          "answer": "Yes, we fully comply with GDPR (EU) and COPPA (US) regulations. No user data is collected from any age group. We do not target users under 13 (16 in EU)."
+        },
+        {
+          "id": "compliance2",
+          "question": "Why does the privacy policy mention third parties?",
+          "answer": "For transparency. Our quote API providers may see your IP address and timestamp during standard web requests."
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Troubleshooting",
+      "faqs": [
+        {
+          "id": "troubleshoot1",
+          "question": "Quotes aren’t loading. What should I do?",
+          "answer": "Check your internet connection, force-close and reopen the app, and check that the quote APIs are operational (link to status page)."
+        },
+        {
+          "id": "troubleshoot2",
+          "question": "How do I reset preferences?",
+          "answer": "Go to Settings → Reset All → Confirm. This clears theme/font selections and your favorites list."
+        }
+      ]
+    },
+    {
+      "id": "updates",
+      "title": "Future Plans",
+      "faqs": [
+        {
+          "id": "update1",
+          "question": "How are updates handled?",
+          "answer": "App updates are optional and only introduce new features or improvements. Data practices will never change without prior user notice."
+        },
+        {
+          "id": "plans1",
+          "question": "Will ads or subscriptions be added?",
+          "answer": "No. We have no plans to add ads, in-app purchases, or premium features."
+        },
+        {
+          "id": "plans2",
+          "question": "Can I request new quote categories?",
+          "answer": "Yes! You can email suggestions to: information.seeker14@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "faqs": [
+        {
+          "id": "contact1",
+          "question": "How can I request quote removal?",
+          "answer": "Email requests to [information.seeker14@gmail.com](mailto:information.seeker14@gmail.com) with 'Quote Removal' in the subject line."
+        }
+      ]
+    }
+  ]
+}
