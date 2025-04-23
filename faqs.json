@@ -1,0 +1,42 @@
+[
+  {
+    "id": "privacy1",
+    "question": "Does this app collect any personal data?",
+    "answer": "No, we do not collect, store, or share any personal information. The app works entirely offline except for fetching quotes from public APIs."
+  },
+  {
+    "id": "data1",
+    "question": "Where is my preference data stored?",
+    "answer": "All settings and preferences are stored locally on your device and are deleted when you uninstall the app."
+  },
+  {
+    "id": "content1",
+    "question": "How often are new quotes added?",
+    "answer": "Quotes update automatically every 24 hours from our API sources. You can manually refresh at any time."
+  },
+  {
+    "id": "sources1",
+    "question": "Where do the quotes come from?",
+    "answer": "Quotes are sourced from these public APIs: [FavQs](https://favqs.com), [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes), and other community-maintained repositories."
+  },
+  {
+    "id": "sharing1",
+    "question": "Is my sharing activity tracked?",
+    "answer": "No, we do not monitor or log any sharing activities. The app uses your device's native share functionality."
+  },
+  {
+    "id": "compliance1",
+    "question": "Is this app GDPR/COPPA compliant?",
+    "answer": "Yes, we fully comply with GDPR (EU) and COPPA (US) regulations. No user data is collected from any age group."
+  },
+  {
+    "id": "update1",
+    "question": "How are updates handled?",
+    "answer": "App updates are optional and only contain feature improvements. No changes to data practices without prior notification."
+  },
+  {
+    "id": "contact1",
+    "question": "How can I request quote removal?",
+    "answer": "Email requests to [information.seeker14@gmail.com](mailto:information.seeker14@gmail.com) with 'Quote Removal' in the subject line."
+  }
+]
