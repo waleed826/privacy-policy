@@ -1,5 +1,5 @@
 {
-  "title": "Quotes with Vibe - FAQ & Privacy",
+  "title": "Frequently Asked Questions",
   "sections": [
     {
       "id": "privacy",
@@ -8,7 +8,7 @@
         {
           "id": "privacy1",
           "question": "Does this app collect any personal data?",
-          "answer": "No, we do not collect, store, or share any personal information. The app works entirely offline except for fetching quotes from public APIs. It does not access your name, email, identity, location data, device identifiers, or usage history."
+          "answer": "No, we do not collect, store, or share any personal information. The app works entirely online except for storing quotes locally in the app. It does not access your name, email, identity, location data, device identifiers, or usage history."
         },
         {
           "id": "privacy2",
@@ -18,7 +18,7 @@
         {
           "id": "privacy3",
           "question": "Why does the app connect to the internet?",
-          "answer": "To fetch fresh quotes from public APIs. These connections don’t require accounts and only transmit anonymous technical data like your IP address and timestamp, using secure HTTPS protocols."
+          "answer": "To fetch quotes from public APIs. These connections don’t require accounts and only transmit anonymous technical data like your IP address and timestamp, using secure HTTPS protocols."
         }
       ]
     },
@@ -29,7 +29,7 @@
         {
           "id": "data1",
           "question": "How does the 'Local Storage' feature work?",
-          "answer": "All settings and preferences such as theme and font choices are stored locally on your device. These are deleted when you uninstall the app."
+          "answer": "All settings and preferences such as theme, language choices are stored locally on your device. These are deleted when you uninstall the app."
         },
         {
           "id": "sharing1",
@@ -39,7 +39,7 @@
         {
           "id": "translation1",
           "question": "Is translation available in the app?",
-          "answer": "Translation uses your device’s built-in tools, like Google Translate on Android. The app never sees or stores translated text."
+          "answer": "The app uses certified third-party translation services. All translations are processed externally and never stored within the application. No translated text is retained or accessed by our systems."
         }
       ]
     },
@@ -55,7 +55,7 @@
         {
           "id": "content1",
           "question": "How often are new quotes added?",
-          "answer": "Quotes auto-refresh every 24 hours from API sources, and you can manually refresh them at any time."
+          "answer": "Quotes auto-refresh every when ever you visit the app, and you can manually refresh them at any time."
         },
         {
           "id": "moderation1",
@@ -87,7 +87,7 @@
         {
           "id": "troubleshoot1",
           "question": "Quotes aren’t loading. What should I do?",
-          "answer": "Check your internet connection, force-close and reopen the app, and check that the quote APIs are operational (link to status page)."
+          "answer": "Check your internet connection, force-close and reopen the app."
         },
         {
           "id": "troubleshoot2",
@@ -123,8 +123,8 @@
       "faqs": [
         {
           "id": "contact1",
-          "question": "How can I request quote removal?",
-          "answer": "Email requests to [information.seeker14@gmail.com](mailto:information.seeker14@gmail.com) with 'Quote Removal' in the subject line."
+          "question": "How can I Contact for support?",
+          "answer": "Email requests to [information.seeker14@gmail.com](mailto:information.seeker14@gmail.com) with 'supprot in Quotes With Vibe' in the subject line."
         }
       ]
     }
