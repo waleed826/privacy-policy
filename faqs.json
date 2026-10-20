@@ -8,17 +8,43 @@
         {
           "id": "privacy1",
           "question": "Does this app collect any personal data?",
-          "answer": "No, we do not collect, store, or share any personal information. The app works entirely online except for storing quotes locally in the app. It does not access your name, email, identity, location data, device identifiers, or usage history."
+          "answer": "We do not ask you to create an account or enter your name or email. Preferences and favorites are stored on your device. However, third-party services used in the app (Google AdMob for ads and OneSignal for notifications) may collect device and advertising-related data as described in our Privacy Policy."
         },
         {
           "id": "privacy2",
           "question": "How are my data and privacy protected?",
-          "answer": "All preferences are stored only on your device. No servers, databases, third-party trackers, or analytics are used."
+          "answer": "Local settings stay on your device. Ads and notifications are handled by Google AdMob and OneSignal under their own privacy policies. You can limit ad personalization and turn off notifications in your device settings."
         },
         {
           "id": "privacy3",
           "question": "Why does the app connect to the internet?",
-          "answer": "To fetch quotes from public APIs. These connections don’t require accounts and only transmit anonymous technical data like your IP address and timestamp, using secure HTTPS protocols."
+          "answer": "The app needs internet access to load quotes from public APIs, show ads through Google AdMob, and deliver push notifications through OneSignal (if you allow them). These connections use secure HTTPS where supported."
+        },
+        {
+          "id": "privacy4",
+          "question": "Does the app use an advertising ID?",
+          "answer": "Yes. Google AdMob may use the Android Advertising ID to show and measure ads. You can reset or limit ad tracking in your Android settings."
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "title": "Ads & Notifications",
+      "faqs": [
+        {
+          "id": "ads1",
+          "question": "Does Quotes With Vibe show ads?",
+          "answer": "Yes. The app shows ads through Google AdMob to keep the app free to use."
+        },
+        {
+          "id": "ads2",
+          "question": "Will I receive push notifications?",
+          "answer": "Only if you grant notification permission. Notifications are sent using OneSignal. You can disable them anytime in your device or app settings."
+        },
+        {
+          "id": "ads3",
+          "question": "Where can I read more about ad and notification privacy?",
+          "answer": "Open Settings → Privacy Policy in the app, or visit https://waleed826.github.io/privacy-policy/. You can also review Google’s privacy policy and OneSignal’s privacy policy linked there."
         }
       ]
     },
@@ -29,17 +55,17 @@
         {
           "id": "data1",
           "question": "How does the 'Local Storage' feature work?",
-          "answer": "All settings and preferences such as theme, language choices are stored locally on your device. These are deleted when you uninstall the app."
+          "answer": "Settings and preferences such as theme and language choices are stored locally on your device. These are deleted when you uninstall the app."
         },
         {
           "id": "sharing1",
           "question": "Can I share quotes safely?",
-          "answer": "Yes! The 'Copy & Share' feature uses your device’s native sharing menu and doesn’t track what or who you share with."
+          "answer": "Yes. Copy & Share uses your device’s native sharing menu. We do not track who you share with."
         },
         {
           "id": "translation1",
           "question": "Is translation available in the app?",
-          "answer": "The app uses certified third-party translation services. All translations are processed externally and never stored within the application. No translated text is retained or accessed by our systems."
+          "answer": "Yes. Translation may use on-device or third-party translation components. Translated text is processed to show you the result and is not used to create a personal profile in our own systems."
         }
       ]
     },
@@ -50,17 +76,17 @@
         {
           "id": "sources1",
           "question": "Where do the quotes come from?",
-          "answer": "Quotes are sourced from public APIs such as [FavQs](https://favqs.com) and [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes), along with other community-maintained repositories."
+          "answer": "Quotes are sourced from public APIs such as FavQs and Breaking Bad Quotes, along with other community-maintained repositories."
         },
         {
           "id": "content1",
           "question": "How often are new quotes added?",
-          "answer": "Quotes auto-refresh every when ever you visit the app, and you can manually refresh them at any time."
+          "answer": "Quotes refresh when you visit the app, and you can manually refresh them at any time."
         },
         {
           "id": "moderation1",
           "question": "Are quotes fact-checked or moderated?",
-          "answer": "No, quotes reflect original API content and community submissions. We do not curate or modify them."
+          "answer": "Quotes reflect original API content and community submissions. Some quotes may contain strong language. The app is intended for a mature audience."
         }
       ]
     },
@@ -70,13 +96,13 @@
       "faqs": [
         {
           "id": "compliance1",
-          "question": "Is this app GDPR/COPPA compliant?",
-          "answer": "Yes, we fully comply with GDPR (EU) and COPPA (US) regulations. No user data is collected from any age group. We do not target users under 13 (16 in EU)."
+          "question": "Is this app intended for children?",
+          "answer": "No. Quotes With Vibe is intended for a mature audience and is not directed at children under 13 (or under 16 where required). Please see our Privacy Policy for details."
         },
         {
           "id": "compliance2",
           "question": "Why does the privacy policy mention third parties?",
-          "answer": "For transparency. Our quote API providers may see your IP address and timestamp during standard web requests."
+          "answer": "For transparency. AdMob, OneSignal, and quote API providers may process device or technical data (such as advertising ID, push tokens, or IP address) needed to provide their services."
         }
       ]
     },
@@ -98,22 +124,22 @@
     },
     {
       "id": "updates",
-      "title": "Future Plans",
+      "title": "Updates & Feedback",
       "faqs": [
         {
           "id": "update1",
           "question": "How are updates handled?",
-          "answer": "App updates are optional and only introduce new features or improvements. Data practices will never change without prior user notice."
+          "answer": "App updates may add features or improvements. If our data practices change in a meaningful way, we will update the Privacy Policy."
         },
         {
           "id": "plans1",
-          "question": "Will ads or subscriptions be added?",
-          "answer": "No. We have no plans to add ads, in-app purchases, or premium features."
+          "question": "Are there ads or paid subscriptions?",
+          "answer": "The app is free and supported by ads (Google AdMob). There are currently no required paid subscriptions to browse quotes."
         },
         {
           "id": "plans2",
           "question": "Can I request new quote categories?",
-          "answer": "Yes! You can email suggestions to: information.seeker14@gmail.com"
+          "answer": "Yes! Email suggestions to information.seeker14@gmail.com"
         }
       ]
     },
@@ -123,8 +149,8 @@
       "faqs": [
         {
           "id": "contact1",
-          "question": "How can I Contact for support?",
-          "answer": "Email requests to [information.seeker14@gmail.com](mailto:information.seeker14@gmail.com) with 'supprot in Quotes With Vibe' in the subject line."
+          "question": "How can I contact support?",
+          "answer": "Email information.seeker14@gmail.com with 'Support - Quotes With Vibe' in the subject line."
         }
       ]
     }
